@@ -1,11 +1,18 @@
-# AMS Face Recognition
+# Attendance Management System (AMS) - Face Recognition 📸
 
-AMS Face Recognition is a Python application that uses computer vision techniques to recognize faces and mark attendance. It leverages MediaPipe and OpenCV for face detection, the `face_recognition` library for face recognition, and includes features for visualizing face landmarks and blendshapes.
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+
+AMS Face Recognition is a Python application that uses computer vision techniques to recognize faces and mark attendance. It leverages MediaPipe and OpenCV for face detection, the `face_recognition` module for face recognition, and includes features for visualizing face landmarks and blendshapes.
 
 ## Features
 
 - **Face Detection**: Utilizes MediaPipe and OpenCV to detect faces in real-time.
-- **Face Recognition**: Uses the `face_recognition` library to identify known faces.
+- **Face Mesh**: Visualizes face landmarks and blendshapes.
+- **Face Recognition**: Uses the `face_recognition` module to identify known faces.
 - **Attendance Marking**: Automatically marks attendance for recognized faces.
 - **Visualization**: Displays face landmarks and blendshapes for analysis.
 
@@ -60,7 +67,10 @@ To run the facial recognition module, follow these steps:
     ```
 
 3. **Select the module:**
+    - Enter `1` to run the face mesh module.
+    - Enter `2` to run the face detection module.
     - Enter `3` to run the facial recognition module.
+
 
 ## Logging and Debugging
 
